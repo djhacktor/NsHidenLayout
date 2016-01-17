@@ -3,7 +3,7 @@ This new library introduces several new components previously not available out-
 
 Well i used CollapsingToolbarLayout and NestedScrollView to hide and show an view.
 
-![Screen shot](https://github.com/ShifuApp/reco_notification/blob/master/device-2015-12-11-182814.png)
+![Screen shot](https://github.com/djhacktor/NsHidenLayout/blob/master/PN0kxy.gif)
 
 While working on some cool UX experince all remember to use out of the box solution avaliable.
 
