@@ -23,8 +23,6 @@ import android.view.ViewConfiguration;
  */
 public class CustomNestedScrollView extends NestedScrollView {
     private int slop;
-    private float mInitialMotionX;
-    private float mInitialMotionY;
     private float xDistance, yDistance, lastX, lastY;
 
     public CustomNestedScrollView(Context context) {
@@ -49,8 +47,6 @@ public class CustomNestedScrollView extends NestedScrollView {
 
     @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
-        final float x = ev.getX();
-        final float y = ev.getY();
         switch (ev.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 xDistance = yDistance = 0f;
